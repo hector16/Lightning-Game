@@ -30,6 +30,6 @@ public class PlayerHealthManager : MonoBehaviour {
     public void HurtPlayer(int damageAmount){
 
         currentHealth -= damageAmount;
-        HealthBar.value = startingHealth;
+        HealthBar.value = currentHealth;
     }
 }

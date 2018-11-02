@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class enemyHealthManager : MonoBehaviour {
 
     public int health;
     private int currentHealth;
+    public int points;
+    public Text score;
 
 	// Use this for initialization
 	void Start () {
